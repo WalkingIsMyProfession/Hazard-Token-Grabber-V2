@@ -245,6 +245,5 @@ I hope you end up on the streets begging for spare change
 <p align="center">
 🌟 <b>Enjoyed Hazard Token Grabber V2?</b> Consider dropping a star :)
 <br>
-Made alone by Rdimo
 <br>
 <a href=#top>Back to Top</a></p>
