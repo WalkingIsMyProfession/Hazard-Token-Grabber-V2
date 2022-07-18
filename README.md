@@ -30,7 +30,8 @@ password: hazard
 ```
 
 
-> [Why Hazardv2 won't be more OP](https://github.com/Rdimo/Hazard-Token-Grabber-V2/issues/314#issuecomment-1133918906) [Why choose hazard v2?](#why_hazard)
+> [Why Hazardv2 won't be more OP](https://github.com/Rdimo/Hazard-Token-Grabber-V2/issues/314#issuecomment-1133918906)
+> [Why choose hazard v2?](#why_hazard)
 ---
 
 ## <a id="content"></a>🌐 〢 Content
