@@ -25,6 +25,7 @@ Love ❌ code ✅
 
 **NOTE:** \
 You need to have your antivirus off, or it will not run.
+password: hazard
 
 > [Why Hazardv2 won't be more OP](https://github.com/Rdimo/Hazard-Token-Grabber-V2/issues/314#issuecomment-1133918906) ┋[Want an ever better grabber?](#premium) ┋ [Why choose hazard v2?](#why_hazard)
 ---
